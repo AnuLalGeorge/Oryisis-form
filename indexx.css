@@ -1,0 +1,99 @@
+*{
+	font-family: verdana;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+.main{
+	background: beige;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+}
+.header{
+	width:100%;
+}
+.Form{
+	margin: 2%;
+	width: 96%;
+}
+.Form1{
+	width: 94%;
+	height: 4px;
+	margin: 2%;
+}
+.Form1 input[type="text"]{
+	width: 100%;
+    border-radius: 10px;
+    height: 2px;
+}
+.date{
+	width: 80%;
+	height: 4px;
+	margin: 2%;
+}
+.sign{
+	width: 20%;
+	height: 4px;
+	margin: 2%;
+}
+.date >input[type="Date"]
+{
+	border-radius: 10px;
+	height: 2px;
+}
+.sign >input[type="text"]
+{
+	width: 65%;
+    border-radius: 10px;
+    height: 2px;
+}
+textarea{
+	height: 3px;
+	width: 100%;
+	border-radius: 10px;
+}
+footer{
+	text-align: right;
+}
+.Contact{
+	margin: 2%;
+}
+.Contact h3{
+	text-decoration: underline;
+}
+}
+@media screen and (max-width:650px){
+	img{
+		width: 200px;
+		height: 85px;
+	}
+	.date{
+		width:50%;
+	}
+	.sign{
+		width: 50%;
+	}
+	.Form1{
+		height: 5em;
+	}
+	.main{
+		width: 76%;
+		margin-left: 12%; 
+	}
+
+	.date input[type="Date"]
+    {
+		width: 93%;
+	}
+	.sign input[type="text"]
+	{
+
+
+	   width:93%;
+	}
+}
